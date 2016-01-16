@@ -1,0 +1,165 @@
+html {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	width: 70%;
+	height: 100%;
+    margin: 0% 0% 0% 15%;
+    background: white;
+}
+
+header {
+	background: white;
+	height: 30px;
+	padding-top: 10px;
+	width: 70%;
+	position: fixed;
+	border-bottom-style: solid;
+	border-color: #e74c3c;
+}
+nav h1 {
+	color: #e74c3c;
+    padding-left: 30px;
+    text-align: center;
+    display: inline;
+}
+
+nav ul {
+    margin: 0%;
+    padding: 0%;
+    display: inline;   
+}
+nav ul li {
+    padding: 0% 1%;
+    display: inline;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #EA2E49;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #EA2E49;
+    text-decoration: underline;
+}
+footer {
+	position: relative;
+	bottom: 0;
+    color: #e74c3c;
+    width: 100%;
+	height: 60px;
+    clear: both;
+	border-top-style: solid;
+	border-color: #e74c3c;
+}
+canvas {
+	padding: 30px 2% 30px 2%;
+	width: 49.5% !important;
+    height: auto !important;
+	float: left;
+	margin-left: .5%;
+	margin-bottom: 5px;
+}
+#welcome {
+	background: white;
+    color: #424242;
+    text-align: center;
+    height: auto;
+	min-height: 300px;
+	width: 99%;
+	margin-left: .5%;
+	padding: 50px 0 0 0;
+}
+#welcome h1{
+    font-size: 250%;
+	margin-bottom: 10px;
+}
+#welcome p{
+	font-style: italic;
+	padding: 10px 10%;
+	
+}
+#container {
+    padding: 5px 0 0 0;
+	margin-top: 20px;
+}
+.headline {
+    background: ;
+    color:#f1c40f;
+    text-align: left;
+    height: 70px;
+	width: 99%;
+	margin-left: .5%;
+	margin-bottom: 5px;
+	border-bottom-style: solid;
+	border-color: #f1c40f;
+	float: left;
+}
+.headline h1{
+    font-size: 250%;
+	margin-bottom: 10px;
+}
+.headline p{
+    font-style: italic;
+}
+.text_box{
+    color: #424242;
+    width: 45%;
+	height: 100%;
+	margin-left: .5%;
+	margin-bottom: 5px;
+	padding-top: 10px;
+    float: left;
+}
+.text_box h1{
+    font-size: 200%;
+	text-align: center;
+}
+.text_box p{
+    font-style: italic;
+	text-align: left;
+	padding: 10px;
+	margin: 2px;
+}
+
+/* Changes in layout if screen smaller than 700px */
+@media screen and (max-width: 700px) {
+    body{
+		width: 96%;
+		margin-left: 2%;
+	}
+	header{
+		width: 96%;
+		padding-top: 0;
+		height: 90px;
+	}
+	nav h1, nav ul {	
+		display: block;
+		text-align: center;
+		padding-left: 0px;
+	}
+	#welcome {
+		padding: 100px 0 0 0;
+	}
+	#container{
+		margin-top: 100px;
+	}
+	.headline{
+		height: 45px;
+	}
+	.headline h1{
+		font-size: 150%;
+	}
+	.text_box{
+        float: center;
+        width: 99%;
+        margin: 3.5px .5% 50px .5%;
+    }
+	canvas {
+		width: 95% !important;
+		float: center;
+		margin: 3.5px .5% 3.5px .5%;
+	}
+}

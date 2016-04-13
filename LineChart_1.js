@@ -1,3 +1,4 @@
+// Chart.js line chart file
 var lineData = {
 	// Line Chart data set:
 	labels: ["January", "February", "March", "April", "May", "June", "July"],
